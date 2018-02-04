@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N gethostmpi 
+#PBS -o gethostmpi.o%j
+#PBS -l nodes=2:ppn=2
+#PBS -l walltime=00:20:00
+#PBS -l pmem=1gb
+#PBS -V
+
+cd $PBS_O_WORKDIR
+
+source /etc/profile.d/modules.sh
+
+
+module add openmpi
+
+
+
+mpirun  ./gethostname.mpi.exe > output.from.$NSLOTS.txt

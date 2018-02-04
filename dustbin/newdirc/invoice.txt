@@ -1,0 +1,5 @@
+Serial	No.	 Merchandize	 Quan6ty	 Unity	Price	
+1 Pen 5 20 
+2 Rubber 10 2 
+3 Pencil 3 3.5 
+4 Cock 2 45.5 

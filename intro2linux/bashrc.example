@@ -1,0 +1,24 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+
+### Modifications for command prompt:
+export PS1="\n\[\033[34m\]\$(/bin/date +"%Y-%m-%d") \[\033[34m\]\$(/bin/date +"%T")\n\[\033[34m\]\$(/bin/pwd) \[\033[0;32m\](\$(/bin/ls -1 | /usr/bin/wc -l | /bin/sed 's: ::g') items \[\033[32m\]\$(/bin/ls -lah | /bin/grep "^total" | /bin/sed 's/total //')b)\n\[\033[0;30m\]
+\u@\h \[\033[0m\]> \[\033[0m\]"
+
+ulimit -s unlimited
+alias ls='ls --color'
+
+### Modifications for ls command:
+LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=00;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.gz=01;31:*.bz2=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.jpg=00;35:*.jpeg=00;35:*.gif=00;35:*.bmp=00;35:*.pbm=00;35:*.pgm=00;35:*.ppm=00;35:*.tga=00;35:*.xbm=00;35:*.xpm=00;35:*.tif=00;35:*.tiff=00;35:*.png=00;35:*.mov=00;35:*.mpg=00;35:*.mpeg=00;35:*.avi=00;35:*.fli=00;35:*.gl=00;35:*.dl=00;35:*.xcf=00;35:*.xwd=00;35:*.flac=00;35:*.mp3=00;35:*.mpc=00;35:*.ogg=00;35:*.wav=00;35:*.log=00;31:*.out=00;31:';
+export LS_COLORS
+alias la='ls -altr --color=auto'
+alias ls='ls --color=auto'
+
+
+alias vi='vim'

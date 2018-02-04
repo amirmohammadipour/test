@@ -1,0 +1,20 @@
+CXXFLAGS=-O2
+CXX=c++
+CC=c++
+
+all:		reciprocal
+
+main.o:		main.cpp reciprocal.hpp
+		$(CXX) $(CXXFLAGS)  -c $<
+
+reciprocal.o:	reciprocal.cpp  reciprocal.hpp
+		$(CXX) $(CXXFLAGS) -c $<
+
+reciprocal:	main.o reciprocal.o
+		$(CXX) $(CXXFLAGS) $? -o $@
+
+clean:
+		rm -f *.o reciprocal
+
+test:		reciprocal
+		./$< 7

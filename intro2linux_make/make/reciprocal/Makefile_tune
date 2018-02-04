@@ -1,0 +1,19 @@
+CXXFLAGS=-O3
+CXX=g++
+
+all:		reciprocal
+
+reciprocal:	main.o reciprocal.o
+		$(CXX) $(CXXFLAGS) -o reciprocal main.o reciprocal.o
+
+main.o:		main.cpp reciprocal.hpp
+		$(CXX) $(CXXFLAGS) -c main.cpp
+
+reciprocal.o:	reciprocal.cpp reciprocal.hpp
+		$(CXX) $(CXXFLAGS) -c reciprocal.cpp
+
+clean:
+		rm -f *.o reciprocal
+
+test:		reciprocal
+		./reciprocal 7

@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=00:05:00
+#PBS -l pmem=1gb
+#PBS -N  namd
+#PBS -o  namd.o%J
+#PBS -V
+
+
+cd $PBS_O_WORKDIR
+
+# The number of processors allocated to this run, NPROCS is used by mpirun.
+
+module load namd
+
+
+mpirun -v  namd2 apoa1.namd  

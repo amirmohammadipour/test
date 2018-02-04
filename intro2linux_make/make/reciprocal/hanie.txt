@@ -1,0 +1,1000 @@
+   29  ls -la
+   30  cat data.txt 
+   31  paste serial.txt data.txt 
+   32  cat data.txt 
+   33  head data.txt 
+   34  logout
+   35  history
+   36  AA=50
+   37  echo $((AA++))
+   38  BB=$((AA++))
+   39  echo $BB
+   40  XX=40
+   41  CC=$((XX++))
+   42  echo $CC
+   43  mkdir Photo
+   44  cd Photos/
+   45  mkdir {2017..2018}-{01..12}
+   46  ls
+   47   wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/human_genomic.00.tar.gz.md5
+   48  ls -lrt
+   49  export DATE=$(date)
+   50  echo "Right now it is $DATE"
+   51  ls -la
+   52  more .bash_profile
+   53  foo=({20..35})
+   54  echo ${foo[2]}
+   55  echo ${foo[@]}
+   56  vim script.sh
+   57  vi scripts.sh
+   58  u+x scripts.sh
+   59  vi scripts.sh
+   60  chmod u+x scripts.sh
+   61  ./scripts.sh 
+   62  cd
+   63  vipars.sh
+   64  vi pars.sh
+   65  rm pars.sh
+   66  vi pars.sh
+   67  ./pars.sh apple orange
+   68  vi pars.sh
+   69  ./pars.sh apple orange
+   70  vi pars.sh
+   71  ./pars.sh apple orange
+   72  vi pars.sh
+   73  ./pars.sh apple orange
+   74  chmod u+x pars.sh
+   75  ./pars.sh apple orange
+   76  ls -d /usr/bin
+   77  echo $?
+   78  ls -d /usr/bin
+   79  echo $?
+   80  ls -d /bin/usr
+   81  echo $?
+   82  ls -la
+   83  cd intro2linux
+   84  vi loop.sh
+   85  vi loop.bash
+   86  ./loop.bash
+   87  vi loop.bash
+   88  ./loop.bash
+   89  vi loop.bash
+   90  ./loop.bash
+   91  vi loop.bash
+   92  more flow-control-loop3.sh
+   93  vi loop1.bash
+   94  ./loop.bash
+   95  ./loop1.bash
+   96  vi loop.bash
+   97  vi loop2.bash
+   98  ./loop2.bash
+   99  logout
+  100  ls -la
+  101  cd intro2lnux
+  102  cd intro2linux
+  103  ls -la
+  104  more all.lanes.txt
+  105  cut -f 1,2 all.lanes.txt
+  106  man cut
+  107  cut -f 3,4 all.lanes.txt
+  108  cat all.lanes.txt 
+  109  man cut
+  110  cat all.lanes2.txt 
+  111  cut -d '  ' -f 2- all.lanes2.txt 
+  112  cut -d ' ' -f 2- all.lanes2.txt 
+  113  cut -d -f 2- all.lanes2.txt 
+  114  cut -f 2- all.lanes2.txt 
+  115  cut -d % -f 2- all.lanes2.txt 
+  116  cut -d '%' -f 2- all.lanes2.txt 
+  117  man cut
+  118  cat dictionary.txt 
+  119  man head
+  120  head -n 9 dictionary.txt 
+  121  head -n -9 dictionary.txt 
+  122  ls -la
+  123  head -n 9 dictionary.txt > temp.txt
+  124  cat temp.txt 
+  125  ls -la
+  126  cat a-z.txt 
+  127  cat a-z.txt | sort
+  128  cat dictionary.txt 
+  129  cat dictionary.txt | grep ing
+  130  man grep
+  131  cat dictionary.txt | grep ing | grep un
+  132  man |
+  133  man grep
+  134  grep -v ing dictionary.txt 
+  135  grep tred dictionary.txt 
+  136  cat dictionary.txt | grep tred
+  137  cat items2searchFor.txt 
+  138  man grep
+  139  grep -f items2searchFor.txt dictionary.txt 
+  140  cat items2searchFor.txt 
+  141  top
+  142  who
+  143  man | q
+  144  man tr
+  145  man echo
+  146  echo linux
+  147  echo Air
+  148  ls -la
+  149  rm loop.bash
+  150  rm loop.sh
+  151  ls -la
+  152  echo linux | tr 'a-z' 'A-Z'
+  153  man tr
+  154  man tr '}' '!'
+  155  echo 'world}}}' | tr '}' '!'
+  156  echo world}}} | tr '}' '!'
+  157  man tr
+  158  echo 'world}}}' | tr -d '}'
+  159  ls -l
+  160  ls -la
+  161  cat temp
+  162  cat temp.txt 
+  163  chmod u+rwx serial.txt 
+  164  ls -la
+  165  chmod u+rw serial.txt 
+  166  ls -la
+  167  chmod u-x serial.txt 
+  168  ls -la
+  169  chmod ug+w serial.txt 
+  170  ls -la
+  171  chmod ug-w serial.txt 
+  172  ls -la
+  173  echo {Z..A}
+  174  echo Front-{A,B,C}-Back
+  175  AA=50
+  176  echo $((A++))
+  177  echo $((AA++))
+  178  echo $((AA+))
+  179  BB= $((AA*2))
+  180  echo $((AA*2)
+  181  )
+  182  BB= $((AA*2))
+  183  BB= $((AA++))
+  184  echo$BB
+  185  echo $BB
+  186  BB = $((AA++))
+  187  BB=$((A++))
+  188  echo $BB
+  189  AA=50
+  190  echo $((AA++))
+  191  BB=$((AA++))
+  192  echo $BB
+  193  BB=$((AA++))
+  194  echo $BB
+  195  BB=$((AA++))
+  196  echo $BB
+  197  $AA
+  198  echo $AA
+  199  echo $BB
+  200  mkdir Photos
+  201  cd Photos/
+  202  mkdir {2017..2018}-{01..12}
+  203  ls -la
+  204  logout
+  205  history
+  206  pwd
+  207  ls -la
+  208  rm -rf Photo
+  209  ls -la
+  210  cd intro2linux
+  211  ls -la
+  212  ls -ls
+  213  ls -la
+  214  echo Front-{A,B,C}-Back
+  215  wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/human_genomic.{01..12..1}.tar.gz.md5
+  216  ls -la
+  217  rm human_genomic.{00..12..1}.tar.gz.md5
+  218  rm human_genomic.{00..08..1}.tar.gz.md5
+  219  ls -la
+  220  rm -rf {2017..2018}-{01..12}
+  221  ls -la
+  222  wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/human_genomic.{00..12..1}.tar.gz.md5
+  223  ls -la
+  224  wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/human_genomic.09.tar.gz.md5
+  225  ls -la
+  226  man export
+  227  man grep
+  228  man export
+  229  export DATE=$(date)
+  230  echo DATE
+  231  echo $DATE
+  232  Date=$(date)
+  233  echo Date
+  234  echo $Date
+  235  echo "Right now it is $DATE"
+  236  export DATE='date'
+  237  echo "Right now it is $DATE"
+  238  export DATE=`date`
+  239  echo "Right now it is $DATE"
+  240  POWERBALL=(54 69 23 66 78 99)'
+  241  echo "One of my lucky number is " ${POWERBALL[3]}
+  242  echo "One of my lucky number is ${POWERBALL[3]}"
+  243  echo $((RANDOM%=7))
+  244  echo $((RANDOM%=8))
+  245  echo "One of my lucky number is ${POWERBALL[$((RANDOM%=7))]}"
+  246  echo "One of my lucky number is" ${POWERBALL[$((RANDOM%=7))]}
+  247  echo "One of my lucky number is ${POWERBALL[$((RANDOM%=7))]}"
+  248  echo "One of my lucky number is" ${POWERBALL[$((RANDOM%=7))]}
+  249  foo=({20..35})
+  250  echo ${foo[2]}
+  251  echo ${foo[@]}
+  252  logout
+  253  man tar
+  254  man mv
+  255  cd $HOME
+  256  ls -la
+  257  cd intro2linux
+  258  cd $HOME
+  259  cd intro2linux
+  260  ls -la
+  261  tar -xf intro2linux.tgz
+  262  cd ..
+  263  tar -xf intro2linux.tgz
+  264  ls -la
+  265  tar -xf intro2linux.tar.gz
+  266  ls -la
+  267  rm ._*
+  268  ls -la
+  269  rm -rf intro2linux
+  270  ls -la
+  271  tar -xf intro2linux.tar.gz
+  272  ls -la
+  273  rm ._*
+  274  ls -la
+  275  cd intro2linux
+  276  ls -la
+  277  rm ._*
+  278  ls -la
+  279  cd ..
+  280  tar -cvzf example.tar.gz intro2linux
+  281  ls -la
+  282  cd example.tar.gz 
+  283  ls -la
+  284  man tar
+  285  tar -xf example.tar.gz 
+  286  ls -la
+  287  tar -xvf example.tar.gz 
+  288  ls -la
+  289  cd dustbin/
+  290  ls -la
+  291  cd ..
+  292  rm -rf dustbin/
+  293  ls -la
+  294  mkdir dustbin
+  295  mv example.tar.gz ./dustbin/
+  296  cd dustbin/
+  297  ls -la
+  298  tar -xvf example.tar.gz 
+  299  ls -la
+  300  man mv
+  301  mv intro2linux/ newdir
+  302  ls -la
+  303  cd newdir/
+  304  ls -la
+  305  cd ..
+  306  ls newdir/
+  307  ls newdir/ > contents.txt
+  308  ls -la
+  309  cat contents.txt 
+  310  cd $HOME
+  311  ls -la
+  312  cd dustbin/
+  313  ls -la
+  314  cd ..
+  315  rm -rf dustbin/
+  316  ls 
+  317  ls -la
+  318  vim script.sh
+  319  rm script.sh
+  320  ls -la
+  321  vim scripts.sh 
+  322  rm scripts.sh 
+  323  ls -la
+  324  vim script.sh
+  325  ls -la
+  326  cat script.sh 
+  327  chmod u+x script.sh 
+  328  ./script.sh 
+  329  vim script.sh 
+  330  ./script.sh 
+  331  ls -la
+  332  cd dustbin/
+  333  ls -la
+  334  cat contents.txt 
+  335  cd
+  336  ls -la
+  337  cp script.sh myscript.txt
+  338  cat myscript.txt
+  339  rm dustbin/
+  340  rm -rf  dustbin/
+  341  ls -la
+  342  vim myscript.txt
+  343  myscript
+  344  vim myscript.txt
+  345  ./myscript
+  346  cp myscript.txt myscript.sh
+  347  ls -la
+  348  cat myscript.sh
+  349  ./myscript
+  350  ./myscript.sh
+  351  ls -la
+  352  rm myscript.txt
+  353  cat pars.sh
+  354  $ pars apple orange
+  355  history
+  356  ls -la
+  357  ./pars.sh apple orange
+  358  rm pars.sh 
+  359  vim pars.sh
+  360  ls -la
+  361  chmod u+x pars.sh 
+  362  ./pars.sh Apple Orange
+  363  vim pars.sh 
+  364  ls -la
+  365  ./pars.sh Apple Orange
+  366  vim pars.sh 
+  367  cat pars.sh 
+  368  man ls
+  369  history
+  370  ls -d /usr/bin
+  371  echo $?
+  372  ls /usr/bin
+  373  ls -d /usr/bin
+  374  echo $?
+  375  ls -d /usr/bin1
+  376  echo $?
+  377  clear
+  378  ls -la
+  379  vim rem.sh
+  380  ls -la
+  381  chmod u+x rem.sh 
+  382  ./rem.sh
+  383  touch junk
+  384  ./rem.sh
+  385  touch junk
+  386  rm junk 2 > /dev/null
+  387  rm junk 2> /dev/null
+  388  man 2>
+  389  true
+  390  echo $?
+  391  false
+  392  echo $?
+  393  if true; then echo "It's true."; fi
+  394  if true; then echo "AMIR"; fi
+  395  man test
+  396  if [-f .bash_profile]; then echo "You have a .bash_profile. Things are fine."; else fi
+  397  if [-f .bash_profile]; then echo "You have a .bash_profile. Things are fine."; else "BAD"; fi
+  398  man for
+  399  history
+  400  ls -la
+  401  cd intro2linux/
+  402  ls -la
+  403  vim loop2.bash 
+  404  cat loop.bash
+  405  cat loop1.bash
+  406  cat loop1.sh
+  407  ./loop1.bash
+  408  vim loop1.bash 
+  409  ./loop1.bash
+  410  vim loop1.bash 
+  411  logout
+  412  man date
+  413  vim loop1.bash 
+  414  vim loop2.bash 
+  415  man date
+  416  man sleep
+  417  cd intro2linux
+  418  vim loop1.bash
+  419  ./loop1.bash
+  420  vim loop1.bash 
+  421  ./loop1.bash
+  422  ls -la
+  423  cat flow-control-loop1.sh 
+  424  ./flow-control-loop1.sh
+  425  cat flow-control-loop2.sh 
+  426  ./flow-control-loop2.sh
+  427  cat flow-control-loop3.sh 
+  428  ./flow-control-loop3.sh
+  429  ls -la
+  430  animals=("a cat" "ate my" "yellow fish")
+  431  for i in "${animals[@]}"; do  echo $i; done
+  432  for ((i=0; i<=2; i++)); do  echo ${animals[$i]}; done
+  433   
+  434  vim list_names.sh
+  435  ls -la
+  436  chmod u+x list_names.sh 
+  437  ./list_names.sh 
+  438  ./list_names.sh file1
+  439  ./list_names.sh a-z.txt
+  440  ./list_names.sh my
+  441  vim list_names.sh 
+  442  ./list_names.sh my
+  443  ./list_names.sh bastard
+  444  ./list_names.sh ar
+  445  ./list_names.sh amir
+  446  ./list_names.sh america
+  447  ./list_names.sh ame
+  448  logout
+  449  history
+  450  logout
+  451  ls -la
+  452  cd intro2linux
+  453  ls -la
+  454  more theraven.txt 
+  455  sed /^S/d theraven.txt 
+  456  more theraven.txt 
+  457  sed 1,10d theraven.txt 
+  458  sed 1.5p grades.txt 
+  459  sed 1,5p grades.txt 
+  460  echo "the UNIX operating system ..." | sed 's/.NI./
+  461  wonderful &/'
+  462  echo "the UNIX operating system..." | sed 's/.NI./ wonderful &/'
+  463  squeue
+  464  scontrol show partition
+  465  scontrol show node compute-0-41
+  466  scontrol
+  467  scontrol show node
+  468  scontrol show node compute-1-23
+  469  sinfo -4
+  470  sinfo 
+  471  sinfo
+  472  module avail
+  473  logout
+  474  history
+  475  man awk
+  476  cd intro2linux
+  477  ls
+  478  more data.txt 
+  479  vi emp.txt
+  480  awk `$3>0 {print $1, $2*$3}` emp.txt
+  481  awk '$3>0 {print $1, $2*$3}' emp.txt
+  482  cat emp.txt 
+  483  vi getEmails.txt
+  484  more getEmails.txt 
+  485  ls
+  486  vi email.awk
+  487  ls -la
+  488  chmod u+x email.awk 
+  489  ls -la
+  490  ./email.awk 
+  491  ./email.awk getEmails.txt 
+  492  vi email.awk 
+  493  chmod u+x email.awk 
+  494  ./email.awk getEmails.txt 
+  495  vi grades.txt
+  496  vi total.awk
+  497  awk -f total.awk grades.txt 
+  498  sed 6d grades.txt 
+  499  more grades.txt 
+  500  logout
+  501  history
+  502  cd intro2linux
+  503  ls -la
+  504  more numbers 
+  505  cat numbers 
+  506  sort numbers
+  507  sort numbers > phone_list.txt
+  508  cat phone_list.txt 
+  509  ls 
+  510  file numbers
+  511  file phone_list.txt 
+  512  man tr
+  513  file add.c 
+  514  cat add.c 
+  515  man tr
+  516  cp add.c add_aux.c
+  517  ls
+  518  more add_aux.c 
+  519  tr '[]' '{}' < add_aux.c > add_out.c
+  520  cat add_out.c 
+  521  tr '{}' '()' < add_aux.c > add_out.c
+  522  cat add_out.c 
+  523  tr '[]' '()' < add_aux.c > add_out.c
+  524  cat add_out.c 
+  525  cp add.c add_aux.c
+  526  more add_out.c 
+  527  more add.c
+  528  tr '[]' '()' < add_aux.c > add_out.c 
+  529  cat add_out.c 
+  530  tr '{}' '()' < add_out.c > add_out2.c 
+  531  cat add_out2.c 
+  532  cp add.c add_aux.c
+  533  cat add_aux.c 
+  534  tr '[]' '()' < add_aux.c > add_out.c && tr '{}' '()' < add_out.c > add_out2.c
+  535  cat add_out
+  536  cat add_out2.c
+  537  ls
+  538  rm add_aux.c ; add_out.c ; add_out2.c
+  539  rm add_aux.c && add_out.c &&  add_out2.c
+  540  rm add_aux.c && rm add_out.c && rm  add_out2.c
+  541  rm add_out.c && rm  add_out2.c
+  542  ls 
+  543  tr '[]' '()' < add.c > add_out.c && tr '{}' '()' < add_out.c > add_out2.c
+  544  cat add_out2.c 
+  545  cat add.c 
+  546  ls
+  547  more add_out2.c
+  548  ls
+  549  cat part1.txt 
+  550  cat part2.txt 
+  551  part1.txt >> part2.txt
+  552  part1.txt>>part2.txt
+  553  cat part1.txt | part2.txt
+  554  paste part1.txt part2.txt
+  555  paste part1.txt part2.txt | book.txt
+  556  paste part1.txt part2.txt > book.txt
+  557  cat book.txt
+  558  ls 
+  559  tr '[]' '()' < add.c > add.c && tr '{}' '()' < add.c > add.c
+  560  cat add.c
+  561  ls
+  562  ls -la
+  563  cat add_aux.txt
+  564  cat add_out.txt
+  565  cat add_out.c
+  566  vi add_out.c 
+  567  cp add_out.c add.c
+  568  cat add.c
+  569  ls
+  570  cat input15.old
+  571  cat input24.old
+  572  file input24.old
+  573  vi input24.old
+  574  echo linux
+  575  echo linux | tr 'a-z' 'A-Z'
+  576  tr 'a-z' 'A-Z'
+  577  echo input | tr 'a-z' 'A-Z'
+  578  man find
+  579  ls
+  580  more list_names.sh
+  581  man grep
+  582  grep input
+  583  grep input*
+  584  ls 
+  585  man grep
+  586  grep 'input*' 
+  587  ./list_names.sh 
+  588  ./list_names.sh ght
+  589  ./list_names.sh god
+  590  ./list_names.sh linux
+  591  ./list_names.sh li
+  592  vi list_names.sh 
+  593  man find
+  594  find . -name 'input'
+  595  find . -name 'input16.old'
+  596  find . -name 'input*'
+  597  find . -name 'input*' | sort
+  598  ii=14
+  599  find . -name 'input$ii.old'
+  600  find . -name 'input $ii.old'
+  601  find . -name 'inputii.old'
+  602  find . -name 'input*.old'
+  603  echo $ii
+  604  find . -name 'input*.old'
+  605  find . -name 'input*.old' > All_Inputs.txt
+  606  ls 
+  607  cat all
+  608  cat All_Inputs.txt 
+  609  rm All_Inputs.txt 
+  610  grep ing dictionary.txt
+  611  ii=14
+  612  echo $ii
+  613  find . -name 'input'%04d'$ii.old'
+  614  find . -name 'input$ii.old'
+  615  find . -name 'inputii.old'
+  616  find . -name 'input14.old'
+  617  for fyle in *; do find . -name 'input?.old'; if [ $? -eq 0 ]; then tr 'a-z' 'A-Z' 'input?'; fi; done
+  618  vi homework.sh
+  619  chmod u+x homework.sh 
+  620  ./homework.sh 
+  621  vi homework.sh
+  622  ./homework.sh 
+  623  vi homework.sh
+  624  ./homework.sh 
+  625  vi homework.sh
+  626  ./homework.sh 
+  627  vi homework.sh
+  628  ./homework.sh 
+  629  cp input1.old input1000.old
+  630  echo input1000.old | tr 'a-z' 'A-Z'
+  631  cp input1.old input1000.old
+  632  echo input1000 | tr 'a-z' 'A-Z'
+  633  ls
+  634  vi INPUT1000
+  635  echo file2 | tr 'a-z' 'A-Z'
+  636  ls
+  637  mv INPUT1000.old INPUT$.new
+  638  ls
+  639  vi homework.sh 
+  640  array1=('find . -name 'input*.old')
+  641  array1=(`find . -name 'input*.old`)
+  642  ii=14
+  643  echo $ii
+  644  find . -name 'input'$ii'.old'
+  645  vi homework.sh 
+  646  ii=1000
+  647  mv INPUT$ii.new input$ii.old
+  648  ls
+  649  vi homework.sh 
+  650   ./homework.sh 
+  651  ls
+  652  mv homework.sh homework1.sh 
+  653  vi homework1.sh 
+  654  ls
+  655  mv homework1.sh ..
+  656  cd ..
+  657  ls 
+  658  ls -la
+  659  vi homework1.sh 
+  660  mv intro2linux intro2linux_old
+  661  cd intro2linux_old/
+  662  ls
+  663  cd ..
+  664  ls
+  665  ls -la
+  666  tar -xvzf intro2linux.tar.gz 
+  667  ls 
+  668  ls -la
+  669  rm ._*
+  670  ls -la
+  671  cd intro2linux
+  672  ls -la
+  673  rm ._*
+  674  ls -la
+  675  ls
+  676  cd ..
+  677  ls -la
+  678  cp homework1.sh assignment1.sh
+  679  ls -la
+  680  mv homework1.sh intro2linux/
+  681  ls -la
+  682  cd intro2linux
+  683  ls 
+  684  ls -la
+  685  vi homework1.sh 
+  686  ./homework1.sh 
+  687  ls
+  688  more phone_list.txt 
+  689  ls
+  690  cat add_out.c 
+  691  cat add_out2.c 
+  692  cat book.txt 
+  693  cd ..
+  694  ls
+  695  ls -la
+  696  zip Intro2LinuxHW1_Mohammadipour_Amir_executed intro2linux
+  697  ls -la
+  698  rm -rf intro2linux
+  699  ls -la
+  700  tar -xvzf intro2linux.tar.gz 
+  701  ls -la
+  702  rm ._*
+  703  cd intro2linux
+  704  ls -la
+  705  rm ._*
+  706  ls -la
+  707  cd ..
+  708  ls -la
+  709  cp assignment1.sh homework1.sh
+  710  ls -la
+  711  vi homework1.sh 
+  712  mv homework1.sh intro2linux
+  713  cd intro2linux
+  714  ls
+  715  cd ..
+  716  ls -la
+  717  zip Intro2LinuxHW1_Mohammadipour_Amir_to_be_executed intro2linux
+  718  ls -la
+  719  cd intro2linux
+  720  ls 
+  721  cd ..
+  722  ls -la
+  723  cd intro2linux
+  724  ls 
+  725  cd intro2linux
+  726  ./homework1.sh 
+  727  ls
+  728  ls -la
+  729  ls
+  730  cd intro2linux
+  731  ls
+  732  more input0.new 
+  733  awk '{ print $3 }' input0.new 
+  734  man awk
+  735  cd ..
+  736  cd intro2linux_old/
+  737  ls
+  738  cat emp.txt 
+  739  awk '$3>0 {print $1, $2*$3}' emp.txt 
+  740  {names = names $1 " "}
+  741  {names = names $1 " "} end {print names}
+  742  cat getEmails.txt 
+  743  ls
+  744  cat email.awk 
+  745  vi email.awk 
+  746  ls -la
+  747  ./email.awk getEmails.txt 
+  748  ls 
+  749  vim out.awk
+  750  ls -la
+  751  chmod u+x out.awk 
+  752  ls -la
+  753  ./out.awk getEmails.txt 
+  754  vim out.awk
+  755  ./out.awk getEmails.txt 
+  756  vim out.awk
+  757  ./out.awk getEmails.txt 
+  758  vim out.awk
+  759  ./out.awk getEmails.txt 
+  760  vim out.awk
+  761  ./out.awk getEmails.txt 
+  762  man printf
+  763  man print
+  764  logout
+  765  logout
+  766  man printf
+  767  intro2linux
+  768  cd intro2linux
+  769  ls
+  770  cd ..
+  771  cd intro2linux_old/
+  772  ls 
+  773  cat total
+  774  cat total.awk 
+  775  awk -f total.awk grades.txt 
+  776  vim grades.txt 
+  777  awk -f total.awk grades.txt 
+  778  awk 'NR<=3'
+  779  awk 'NR<=3' grades.txt 
+  780  awk 'END {print NR}' grades.txt 
+  781  awk '{print $NF}' grades.txt 
+  782  awk '{nf=nf+NF} end {print nf}' grades.txt 
+  783  awk '{ nf = nf + NF } end { print nf }' grades.txt 
+  784  awk '{ nf = nf + NF } END { print nf }' grades.txt 
+  785  awk 'nf = nf + NF} END {print nf}' grades.txt 
+  786  awk '{nf = nf + NF} END {print nf}' grades.txt 
+  787  man printf
+  788  echo -e "test \t\t test"
+  789  echo "test \t\t test"
+  790  echo -e "test \t\t test"
+  791  echo -e "test \t% test"
+  792  echo -e "test \t%.2f test"
+  793  echo -e "test \t test"
+  794  echo -e "test \t\b test"
+  795  ls 
+  796  cd intro2linux_old/
+  797  ls
+  798  manprintf
+  799  man fprint
+  800  man printf
+  801  sed /^$/,$p theraven.txt 
+  802  sed -e /^$/,$p theraven.txt 
+  803  sed '12q' theraven.txt 
+  804  sed '/^$/,$p' theraven.txt 
+  805  sed -n '/^$/,$p' theraven.txt 
+  806  logout
+  807  logout
+  808  ls -la
+  809  ./gethostname.exe 
+  810  logout
+  811  ls
+  812  tat -xvzf intro2scheduler.tar.gz 
+  813  tar -xvzf intro2scheduler.tar.gz 
+  814  ls
+  815  cd intro2scheduler
+  816  ls
+  817  ls -la
+  818  gcc gethostname.c -o gethostname.exe
+  819  ls -la
+  820  cat vi job.gethostname.bash.slurm 
+  821   vi job.gethostname.bash.slurm 
+  822  sbatch job.gethostname.bash.slurm 
+  823  ls -lrt
+  824  more gethost.out
+  825  more hello_world.mpi.o 
+  826  more hello_world.mpi.c
+  827  more hello_world_mpi.c
+  828  mpiicc hello_world_mpi.c -o hello_world_mpi.o
+  829  module load intel
+  830  mpiicc hello_world_mpi.c -o hello_world_mpi.o
+  831  which mpiicc
+  832  more job.hello_world_mpi.bash.slurm 
+  833  vi job.hello_world_mpi.bash.slurm 
+  834  sbatch job.hello_world_mpi.bash.slurm 
+  835  squence
+  836  squeue
+  837  ls -la
+  838  vi job.hello_world_mpi.bash.slurm 
+  839  more output.from.txt 
+  840  module add mpich
+  841  module list
+  842  srun -n 1 -t 00:10:00 --pty /bin/bash -l
+  843  more job.gethostname.bash.pbs 
+  844  logout
+  845  history
+  846  sequence
+  847  squence
+  848  module avail
+  849  module add intel
+  850  module list
+  851  logout
+  852  history
+  853  man squeue
+  854  squeue
+  855  ls 
+  856  cd intro2scheduler
+  857  ls 
+  858  man scontrol 
+  859  scontrol 
+  860  scontrol show partition
+  861  scontrol show node compute-1-2
+  862  squeue 
+  863  vi simple_writing.cpp
+  864  cat simple_writing.cpp 
+  865  ls
+  866  ls -la
+  867  chmod u-x simple_writing.cpp 
+  868  ls -la
+  869  chmod u+x simple_writing.cpp 
+  870  ls -la
+  871  ./simple_writing.cpp 
+  872  g++ -o simple_writing simple_writing.cpp 
+  873  ./simple_writing
+  874  vi simple_writing.cpp 
+  875  g++ -o simple_writing simple_writing.cpp 
+  876  vi simple_writing.cpp 
+  877  g++ -o simple_writing simple_writing.cpp 
+  878  ./simple_writing
+  879  vi simple_writing.cpp 
+  880  vi operating_with_variables.cpp
+  881  g++ -o operating_with_variables operating_with_variables.cpp 
+  882  vi operating_with_variables.cpp
+  883  g++ -o operating_with_variables operating_with_variables.cpp 
+  884  vi operating_with_variables.cpp
+  885  g++ -o operating_with_variables operating_with_variables.cpp 
+  886  vi operating_with_variables.cpp
+  887  g++ -o operating_with_variables operating_with_variables.cpp 
+  888  ./operating_with_variables 
+  889  vi operating_with_variables.cpp
+  890  g++ -o operating_with_variables operating_with_variables.cpp 
+  891  ./operating_with_variables 
+  892  vi operating_with_variables.cpp
+  893  g++ -o operating_with_variables operating_with_variables.cpp 
+  894  ./operating_with_variables 
+  895  vi operating_with_variables.cpp
+  896  mkdir intro2cpp
+  897  mv simple_writing.cpp intro2cpp/
+  898  mv operating_with_variables.cpp intro2cpp/
+  899  cd intro2cpp/
+  900  ls -la
+  901  vi const_type.cpp
+  902  g++ -o const_type const_type.cpp 
+  903  vi const_type.cpp
+  904  g++ -o const_type const_type.cpp 
+  905  ./const_type
+  906  ls
+  907  logout
+  908  ls -la
+  909  cd intro2cpp
+  910  ls
+  911  rm operating_with_variables.cpp 
+  912  rm simple_writing.cpp 
+  913  ls
+  914  cd ..
+  915  ls -la
+  916  vi operating_with_variables 
+  917  vi operating_with_variables.ccp
+  918  cd intro2cpp/
+  919  $ debugfs -w /dev/mapper/wks01-root
+  920  ls
+  921   debugfs -w /dev/mapper/wks01-root
+  922  ls
+  923  scp intro2linux amoham28@opuntia.cacds.uh.edu
+  924  ls
+  925  cd intro2linux
+  926  ls
+  927  cd ..
+  928  logout
+  929  ls -la
+  930  scp intro2linux amoham28@opuntia.cacds.uh.edu:
+  931  scp intro2linux.tar.gz amoham28@opuntia.cacds.uh.edu:
+  932  ls
+  933  scp intro2scheduler.tar.gz amoham28@opuntia.cacds.uh.edu:
+  934  tar -zf intro2cpp/
+  935  tar -czvf intro2cpp.tar.gz intro2cpp/
+  936  ls
+  937  scp intro2cpp.tar.gz amoham28@opuntia.cacds.uh.edu:
+  938  history
+  939  history > history.txt
+  940  ls
+  941  vi history.txt 
+  942  scp history.txt amoham28@opuntia.cacds.uh.edu:
+  943  logout
+  944  squeue
+  945  logout
+  946  ls
+  947  rm Intro2LinuxHW1_Mohammadipour_Amir_executed.zip 
+  948  rm Intro2LinuxHW1_Mohammadipour_Amir_to_be_executed.zip 
+  949  ls
+  950  cd intro2scheduler
+  951  ls
+  952  ls -la
+  953  squeue
+  954  module list
+  955  module avail
+  956  module avail > software.txt
+  957  cat software.txt 
+  958  matlab/r2017b
+  959  man sinfo
+  960  logout
+  961  cd intro2scheduler
+  962  ls
+  963  man sinfo
+  964  module avail
+  965  module add matlab
+  966  module list
+  967  man sbatch
+  968  sbatch --help
+  969  man sbatch
+  970  history
+  971  cat gethostname.c
+  972  vi gethostname.c
+  973  module add intel
+  974  module list
+  975  man gcc
+  976  ls 
+  977  gcc gethostname.c -o gethostname.exe
+  978  la
+  979  ls
+  980  gcc amir.exe -o gethostname.c
+  981  ls
+  982  vi job.gethostname.bash.slurm 
+  983  sbatch job.gethostname.bash.slurm 
+  984  squeue
+  985  sinfo
+  986  vi job.gethostname.bash.slurm 
+  987  sbatch job.gethostname.bash.slurm 
+  988  squeue
+  989  ls -lrt
+  990  ls -la
+  991  man mpicc
+  992  more gethost.out 
+  993  ls
+  994  vi hello_world.mpi.c
+  995  ls -la
+  996  cat job.gpu.bash.
+  997  cat job.gpu.bash.sl
+  998  cat job.gpu.bash.slurm 
+  999  logout
+ 1000  tar -xzf intro2linux_make.zip 
+ 1001  unzip intro2linux_make.zip 
+ 1002  ls 
+ 1003  cd intro2linux_make
+ 1004  cd reciprocal/
+ 1005  ls -la
+ 1006  g++ -c main.cpp 
+ 1007  g++ -c reciprocal.cpp 
+ 1008  ls -la
+ 1009  g++ -o reciprocal reciprocal.o main.o 
+ 1010  ./reciprocal 7
+ 1011  ls -la
+ 1012  cd make
+ 1013  cd..
+ 1014  cd ..
+ 1015  cd intro2linux_make
+ 1016  cd make
+ 1017  more Makefile
+ 1018  ls -la
+ 1019  cd reciprocal
+ 1020  ls -la
+ 1021  more Makefile
+ 1022  make
+ 1023  ls -la
+ 1024  make clean
+ 1025  ls -la
+ 1026  make test
+ 1027  history
+ 1028  history >hanie.txt

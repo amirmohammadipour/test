@@ -1,0 +1,13 @@
+#!/bin/bash 
+#PBS -q gpu
+#PBS -N sortrandomkeys
+#PBS -o sortrandomkeys.o%j
+#PBS -l walltime=00:05:00,nodes=1:ppn=4 
+#PBS -M monkeybrain@gmail.com 
+
+cd $PBS_O_WORKDIR
+##set up your environment 
+source /etc/profile.d/modules.sh
+module add cuda
+time    ./sortkeys_basic_thrust.exe 
+

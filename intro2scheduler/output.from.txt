@@ -1,0 +1,4 @@
+Hello World from MPI process 0 on node compute-0-0.local.
+Hello World from MPI process 1 on node compute-0-0.local.
+Hello World from MPI process 2 on node compute-0-0.local.
+Hello World from MPI process 3 on node compute-0-0.local.
